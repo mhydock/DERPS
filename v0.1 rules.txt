@@ -1,0 +1,88 @@
+================================================================================
+v 0.1
+================================================================================
++ Stats based on a Mind/Body/Soul system
+	- Mind
+		. Intelligence	(capacity to learn)
+		. Wisdom		(capacity to apply what has been learned)
+		. Focus			(capacity to pay attention)
+	- Body
+		. Strength		(capacity to wield weapons/lift objects)
+		. Dexterity		(capacity to finely manipulate objects)
+		. Constitution	(capacity to withstand damage)
+	- Soul
+		. Faith			(capacity to believe in the unproven)
+		. Charisma		(capacity to charm others)
+		
++ Players distribute character points among the various attributes.
+	- Each subset gets (value of superattribute)*(num of attributes) character
+	  points to spend.
+	- ex: If Mind = 10, then there are 30 points to be divided amongst INT, WIS,
+		  and FOC.
+	- 10 is the Human average for each superattribute.
+		. At character creation, superattribute points can be redistributed
+		  to the Player's liking.
+		. Less than 10 points results in below average aptitude, more than
+		  10 points results in above average aptitude.
+		. Some species will have forced initial adjustments.
+	- Every three levels the player gains a superattribute point to be
+	  applied wherever they see fit.
+		. Attribute points for that category will increase accordingly, and
+		  will need to be distributed as well.
+		. Skills/Abilities/Secondary attributes will be adjusted as well.
+			
++ Magic is based on a Mana system
+	- All Pathfinder spells cost (level+1) Mana to use.
+	- Player's total Mana pool is equal to a set formula.
+		. If Player is a Wizard/Sorcerer/Summoner, Mana is (Mind*Level)
+		. If Player is a Druid/Cleric/Paladin, Mana is (Soul*Level)
+		. If Player is Unclassed, Mana is ((Mind+Soul)/2)*Level).
+		. Mana is always calculated by levels per class.
+			> If multiclassing different types (Wizard/Druid) Mana is a sum of
+			  (Mind*Levels of Class A) and (Soul*Levels of Class B)
+			> If multiclassing similar types, total level will suffice.
+		. Rogues/Rangers/Fighters/Barbarians/Bards/Monks don't have Mana.
+			> Remedied through Mana-less skills and abilities.
+			> If an Unclassed later takes levels in a Mana-less class, they will
+			  retain their Mana, and all spells they have learned.
+	- All spells are learnable by every magic-wielding class, but class spells
+	  have higher success rates when used by their class, or with a sufficiently
+	  high ability score.
+		. ex: A Wizard can learn and use a Holy (Faith-based) spell, but if his
+		  Faith score isn't high enough, it will likely fail.
+		. ex: An Unclassed can learn and use a Wizard (INT-based) spell, but
+		  without the added proficiency of a Wizard class, it might fail.
+
++ Classes are divided into Mana-based and Skill-based
+	- Mana-based
+		. Wizard		(Mind*Level)
+		. Sorcerer		(Mind*Level)
+		. Summoner		(Mind*Level)
+		. Druid			(Soul*Level)
+		. Cleric		(Soul*Level)
+		. Paladin		(Soul*Level)
+	- Skill-based
+		. Rogue			(Mind)
+		. Ranger		(Mind)
+		. Fighter		(Body)
+		. Barbarian		(Body)
+		. Bard			(Soul)
+		. Monk			(Soul)
+	- All Players pick up skills ("feats" in D&D) every other level.
+		. Skill-based Classes have additional Class Skills.
+		. Some Class Skills can be chosen by multiple different classes.
+		. Every fourth level, the player can pick up a Class Skill.
+	- Unclassed is a special status.
+		. They have Mana, but no proficiency in any class of magic.
+		. Due to their lack of commitment, any deficiency in Mind or Soul will
+		  affect their ability to cast magic.
+		. They do not have access to Class Skills, but every fouth level can
+		  pick up another non-Class skill to compensate.
+		. If a character has already picked a class, they cannot gain levels in
+		  Unclassed.
+		. An Unclassed can however pick up levels in other classes, and still
+		  maintain levels in Unclassed.
+			> This allows players to create unusual characters, like a Rogue
+			  that can perform minor magic, or a Cleric with additional combat
+			  skills.
+			> Unclassed is treated like a different type when calculating Mana.
