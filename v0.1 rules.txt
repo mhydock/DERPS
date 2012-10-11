@@ -16,9 +16,9 @@ v 0.1
 		. Empathy		(capacity to relate emotionally)
 		
 + Players distribute character points among the various attributes.
-	- Each subset gets character points equal to the value of the category.
-	- ex: If Mind = 10, then there are 10 points to be divided amongst INT, WIS,
-		  and FOC.
+	- Each subset gets (category_value*num_subcats) character points.
+	- ex: If Mind = 10, then there are 10 * 3 = 30 points to be divided amongst
+		  INT, WIS, and FOC.
 	- 10 is the Human average for each superattribute.
 		. At character creation, superattribute points can be redistributed
 		  to the Player's liking.
