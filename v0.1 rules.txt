@@ -13,11 +13,11 @@ v 0.1
 	- Soul
 		. Faith			(capacity to believe in the unproven)
 		. Charisma		(capacity to charm others)
+		. Empathy		(capacity to relate emotionally)
 		
 + Players distribute character points among the various attributes.
-	- Each subset gets (value of superattribute)*(num of attributes) character
-	  points to spend.
-	- ex: If Mind = 10, then there are 30 points to be divided amongst INT, WIS,
+	- Each subset gets character points equal to the value of the category.
+	- ex: If Mind = 10, then there are 10 points to be divided amongst INT, WIS,
 		  and FOC.
 	- 10 is the Human average for each superattribute.
 		. At character creation, superattribute points can be redistributed
@@ -32,7 +32,7 @@ v 0.1
 		. Skills/Abilities/Secondary attributes will be adjusted as well.
 			
 + Magic is based on a Mana system
-	- All Pathfinder spells cost (level+1) Mana to use.
+	- All Pathfinder spells cost (level+1)^2 Mana to use.
 	- Player's total Mana pool is equal to a set formula.
 		. If Player is a Wizard/Sorcerer/Summoner, Mana is (Mind*Level)
 		. If Player is a Druid/Cleric/Paladin, Mana is (Soul*Level)
