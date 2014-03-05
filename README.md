@@ -3,7 +3,7 @@ DERPS
 ---
 
 DERPS, or Dungeon Exploration and Role-Playing System, is a homebrew tabletop
-system blending aspects of Pathfinder (think D&D 3.5) and GIRPS, with numerous
+system blending aspects of Pathfinder (think D&D 3.5) and GURPS, with numerous
 new concepts and additions. The ultimate goal is to create a tabletop system
 with great versatility and reusability; the first modules though, in keeping
 with the D&D/Pathfinder origin of this project, will be traditional Fantasy.
