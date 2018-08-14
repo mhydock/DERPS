@@ -1,11 +1,11 @@
-# Welcome to the Dungeon Exploration and Role-Playing System!
+# Welcome to DERPS!
 
 The Dungeon Exploration and Role-Playing System, or DERPS for short, is a homebrew tabletop system blending aspects of various d20 systems, with inspiration taken from other, more simulation-oriented systems. The ultimate goal is to create a system that can be used comfortably in tabletop games but also in video games. The primary focus of this repository is to establish the core rules, and to draft a core set of character classes, races, equipment, and monsters.
 
 The author of this system is M Matthew Hydock, with the occassional input from friends and family. All
-text herein is covered by the [Creative Commons 3.0 Attribution-NonCommercial](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US) license.
-  
-[![Creative Commons License](http://i.creativecommons.org/l/by-nc/3.0/88x31.png)](http://creativecommons.org/licenses/by-nc/3.0/deed.en_US)
+text herein is covered by the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 
 # Introduction to Role-Playing Games
@@ -29,18 +29,18 @@ All characters are defined by three core attributes: their _Body_, their _Mind_,
 * The _Mind_, on the other hand, governs all mental attributes and abilities, such as one's mental fortitude, their capacity to learn new things, and their ability to focus under stress, in addition to other particulars, like magic use. Naturally, this is the most important attribute for spellcasters, like wizards, sorcerers, and summoners.
 * The last attribute, the _Soul_ attribute, is easily overlooked, as it is the attribute that governs one's connection to deities and to other people and creatures; it is your character's "heart", and unless you're playing a priest, bard, or druid, it can appear useless. What's oft forgotten is that a little charisma or empathy can go a long way in negotiations, making this a vital attribute for diplomatic characters.
 
-> Advanced Attributes
+> **Advanced Attributes**
 > 
-> In the advanced ruleset, the attributes are a bit more granular, but still fall under the general categories of Body, Mind, and Soul:
+> In the advanced ruleset, the attributes are a bit more granular, but still fall under the categories of Body, Mind, and Soul. The following is a general idea of what these granular attributes might be used for:
 > * Body
->   * Strength
->   * Dexterity
->   * Constitution
+>   * Strength - melee combat attribute, lift capacity
+>   * Dexterity - ranged combat attribute, sleight of hand
+>   * Constitution - maximum health, resistance to poison
 > * Mind
->   * Wisdom
->   * Intelligence
->   * Focus
+>   * Wisdom - magic attribute, passive perception
+>   * Intelligence - languages, book knowledge
+>   * Focus - combat casting, general attribute enhancer
 > * Soul
->   * Faith
->   * Charisma
->   * Empathy
+>   * Faith - magic attribute, communing with spirits
+>   * Charisma - persuasion, performance, diplomacy
+>   * Empathy - handling animals, sensing motives
