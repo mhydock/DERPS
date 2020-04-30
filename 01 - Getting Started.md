@@ -36,6 +36,26 @@ All characters are defined by three core attributes: their _Body_, their _Mind_,
 >   * Charisma - persuasion, performance, diplomacy
 >   * Empathy - handling animals, sensing motives
 
+## Race
+
+A character's race is their species, subspecies, breed, etc. Race can impart certain bonuses and penalties based on their physical and social structure. Examples include a negative modifier to strength for diminutive races, or a positive modifier to wisdom for long-lived races. Some races are hybrids of other races, and as such may benefit or suffer from positive and negative modifiers from both of their parents.
+
+Aside from simple mechanical differences, races can also provide flavor and substance to a narrative. For instance, a sentient automata may be a curiosity, if not a minor celebrity, in a village of gnome engineers, but be ostracized and loathed in a commune of elvish druids. It is a good idea to discuss your character's race with your Game Master before you begin your campaign, to ensure that your character's race suits the setting, and to establish expectations.
+
+## Class
+
+A class represents a character's training and expertise, less a job and more of a career path or a trade. The skills, techniques, abilities, and knowledge associated with a class are developed or earned through hard work and experience. Many weapons, armors, and tools, and most magics, _require_ that one have experience in an appropriate class before they can make effective use of the item or spell.
+
+Choosing your starting class is a very important decision, and poor coordination between party members when selecting character classes can result in an unbalanced and ineffective party. Be sure to consider both the campaign setting and the class choices of your fellow players if you wish to improve your chances of building an effective character.
+
+> **Multiclassing**
+>
+> While focusing on progressing with a single class often offers the simplest path to strength and competence, sometimes it results in a stunted character with limited utility. Branching out into a different class can grant flexibility in play style, and can create a character far more powerful than one restricted to the abilities and techniques of a single class.
+>
+> In order to multiclass, when a character has reached the agreed-upon criteria to advance in character level, they may choose to gain a level in a new class, provided they meet that class's multiclass criteria (usually base attributes above a specified minimum).
+>
+> When calculating derived attributes like Health, Mana, and Technique points, the values for the individual classes are calculated for each class according to their level, and then summed. These attributes and their roles will be discussed in a later section.
+
 ## Skills
 
 Skills represent the mundane abilities of an average adventurer, such as swimming, climbing, or lock picking, or in some cases more vague aspects of their capability, like grace, athleticism, or speechcraft. Some classes come with training in certain skills, which imparts a bonus during skill challenges. 
@@ -124,7 +144,7 @@ Below is a possible scenario, involving both untrained skill use and a passive s
 > * Thog the Barbarian needs to sneak past a guard, lest he draw the attention of the entire fort.
 > * Thog is not trained in sneaking, because barbarians don't usually sneak.
 > * Sneaking is a skill that can be used untrained though, as conceptually, sneaking is not that difficult.
-> * As such, Thog may attempt to sneak, relying on his Body (DEX) score, along with whatever points have been allocated to his Stealth during the course of character progression.
+> * As such, Thog may attempt to sneak, relying on his Body (DEX) score, along with whatever points have been allocated to his Stealth skill during the course of character progression.
 > * Thog's player rolls a d20, and adds the result to Thog's Stealth score.
 > * If the total is greater than the guard's passive perception, Thog succeeds, otherwise Thog fails.
 
@@ -134,7 +154,7 @@ Below is a possible scenario, involving both untrained skill use and a passive s
 
 ### Randomness and the Concept of Dumb Luck
 
-One might think with trained bonus, attribute bonus, and a sufficient amount of skill points allocated to a skill, one would never fail a check of a well-trained skill. Likewise, with a severe penalty and no chance to improve beyond a raw attribute increase, one would never take the chance to attempt to use an untrained class skill. But this reduces all skill checks to a simple math problem, and that's boring.
+One might think with trained bonus, attribute bonus, and a sufficient amount of skill points allocated to a skill, one would never fail a check of a well-trained skill. Likewise, with a severe penalty and no chance to improve beyond a raw attribute increase, one would never take the chance to attempt to use an untrained class skill. But this reduces all skill checks to a simple math problem, and that's "boring".
 
 The rolling of a d20 introduces chance, and with it tension and excitement. This game embraces the concept of Dumb Luck, and with it _Epic Failures_ and _Epic Successes_. 
 
@@ -144,6 +164,6 @@ An _Epic Success_ is a roll of 20 on a d20, and represents beginner's luck, a fl
 
 Some believe that epic failures and successes are inherently unfair, that they completely invalidate all the work put into creating the perfect character build. In a sense, that is completely accurate. 
 
-But life is unfair, and random, and sometimes amazing and / or horrible things happen, and there's no reasonable explanation for it. Furthermore, "perfect" can become dull; there's no challenge if you _know_ your character will win every encounter, every test. Epic failure and success adds just enough uncertainty, just enough tension, to keep every encounter interesting.
+But life is unfair, and random, and sometimes amazing and / or horrible things happen and there's no reasonable explanation for it. Furthermore, "perfect" can become dull; there's no challenge if you _know_ your character will win every encounter, every test. Epic failure and success adds just enough uncertainty, just enough tension, to keep every encounter interesting.
 
-If you or your party don't agree and would rather play without Epic Failure and Epic Success, then that is also acceptable. Not everyone has the same definition of "fun". Be sure to discuss this with the Game Master and the rest of the party, ideally before it becomes a problem.
+If you or your party don't agree and would rather play without Epic Failure and Epic Success, then that is also acceptable. Not everyone has the same definition of fun. Be sure to discuss this with the Game Master and the rest of the party, ideally before it becomes a problem.
