@@ -36,6 +36,24 @@ All characters are defined by three core attributes: their _Body_, their _Mind_,
 >   * Charisma - persuasion, performance, diplomacy
 >   * Empathy - handling animals, sensing motives
 
+### Ability Scores and Modifiers
+
+Each attribute has an _Ability Score_ and an _Ability Modifier_ attached to it. An Ability Score is defined at character generation, and can be increased during character progression. A score of 10 represents the statistical average level for any given attribute for a character. An Ability Modifier is derived from the Ability Score, and is simply the score minus 10.
+
+Note that it is perfectly acceptable for a character, playable or otherwise, to be "deficient" in an attribute, and thus have a score under 10. Not all scores need to be above 10 for a character to be a viable adventurer.
+
+Ability Scores are determined primarily by two values: a _Base Score_ and a _Racial Modifier_. Additionally, some items and abilities may temporarily increase your Ability Score; this value is a _Temporary Modifier_. The total Ability Score then is the sum of these constituent parts. While the Temporary Modifier frequently changes, the Base Score and the Racial Modifier are usually static.
+
+Generating the Base Score of an attribute can be performed in multiple ways. Below are a couple examples:
+
+#### Point Buy Method
+
+Each attribute starts at 10. The player is granted three points to allocate however they want. Furthermore, the player may take points from any attribute and move it to another. No score may be less than 7, nor higher than 13. For generating peasants or non-adventurers, do not give the character the three bonus points.
+
+#### Dice Roll Method
+
+For each attribute the player rolls two ten-sided dice (d10), takes the higher value, and adds 5. No score may be less than 7, nor higher than 13. For generating peasants or non-adventurers, the die with the lower value is used.
+
 ## Race
 
 A character's race is their species, subspecies, breed, etc. Race can impart certain bonuses and penalties based on their physical and social structure. Examples include a negative modifier to strength for diminutive races, or a positive modifier to wisdom for long-lived races. Some races are hybrids of other races, and as such may benefit or suffer from positive and negative modifiers from both of their parents.
@@ -167,3 +185,7 @@ Some believe that epic failures and successes are inherently unfair, that they c
 But life is unfair, and random, and sometimes amazing and / or horrible things happen and there's no reasonable explanation for it. Furthermore, "perfect" can become dull; there's no challenge if you _know_ your character will win every encounter, every test. Epic failure and success adds just enough uncertainty, just enough tension, to keep every encounter interesting.
 
 If you or your party don't agree and would rather play without Epic Failure and Epic Success, then that is also acceptable. Not everyone has the same definition of fun. Be sure to discuss this with the Game Master and the rest of the party, ideally before it becomes a problem.
+
+# Character Progression
+
+If playing by Basic rules, a point is earned every four levels, to spend on any basic attribute. If playing by Advanced rules, a point is earned every other level to spend on any advanced attribute.
