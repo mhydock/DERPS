@@ -84,31 +84,54 @@ In addition to trained/untrained status, skills can also be allocated _Skill Poi
 
 The following table is a list of all skills, their class requirement, and the associated attributes (both Basic and Advanced).
 
+<style>
+table td:first-child {
+    text-align: left !important;
+}
+</style>
+
 | Skill           | Class | Attr (Basic) | Attr (Adv) |
 |:---------------:|:-----:|:------------:|:----------:|
-| Acrobatics      |       |     Body     |     DEX    |
-| Athletics       |       |     Body     |     STR    |
-| Bluff           |       |     Soul     |     CHA    |
-| Climb           |       |     Body     |     STR    |
-| Diplomacy       |       |     Soul     |     CHA    |
+| Acrobatics      |   -   |     Body     |     DEX    |
+| Athletics       |   -   |     Body     |     STR    |
+| Convince        |   -   |     Soul     |     CHA    |
+| Deceive         |   -   |     Mind     |     INT    |
 | Disarm Device   |   X   |     Body     |     DEX    |
-| Disguise        |       |     Mind     |     INT    |
-| Escape          |       |     Body     |     DEX    |
-| Fly             |       |     Body     |     DEX    |
+| Escape          |   -   |     Body     |     DEX    |
+| Fly             |   -   |     Body     |     DEX    |
 | Handle Animal   |   X   |     Soul     |     EMP    |
-| Heal            |       |     Mind     |     INT    |
-| Identify        |       |     Mind     |     INT    |
-| Intimidate      |       |     Soul     |     CHA    |
-| Perception      |       |     Mind     |     FOC    |
-| Perform (Act)   |       |     Soul     |     CHA    |
-| Perform (Inst)  |       |     Body     |     DEX    |
-| Ride Animal     |       |     Body     |     DEX    |
-| Ride Vehicle    |       |     Body     |     DEX    |
-| Sense Motive    |       |     Mind     |     WIS    |
-| Sleight of Hand |   X   |     Body     |     DEX    |
-| Stealth         |       |     Body     |     DEX    |
-| Survival        |       |     Mind     |     WIS    |
-| Swim            |       |     Body     |     STR    |
+| Heal            |   X   |     Mind     |     INT    |
+| Identify        |   -   |     Mind     |     INT    |
+| Perception      |   -   |     Mind     |     FOC    |
+| Perform         |   -   |     Soul     |     CHA    |
+| Ride            |   -   |     Body     |     DEX    |
+| Sense Motive    |   -   |     Mind     |     WIS    |
+| Stealth         |   -   |     Body     |     DEX    |
+| Survival        |   -   |     Mind     |     WIS    |
+
+> **Advanced Skills**
+>
+> If you want more granular skills, try substituting for the following. Note that not all substitutes rely on the same attributes:
+> | Skill             | Class | Attr (Basic) | Attr (Adv) |
+> |:-----------------:|:-----:|:------------:|:----------:|
+> | **Athletics**     |       |              |            |
+> | > Climb           |   -   |     Body     |     STR    |
+> | > Jump            |   -   |     Body     |     STR    |
+> | > Swim            |   -   |     Body     |     STR    |
+> | **Convince**      |       |              |            |
+> | > Diplomacy       |   -   |     Soul     |     CHA    |
+> | > Intimidate      |   -   |     Soul     |     CHA    |
+> | **Deceive**       |       |              |            |
+> | > Bluff           |   -   |     Soul     |     CHA    |
+> | > Disguise        |   -   |     Mind     |     INT    |
+> | > Sleight of Hand |   X   |     Body     |     DEX    |
+> | **Perform**       |       |              |            |
+> | > Perform (Act)   |   -   |     Soul     |     CHA    |
+> | > Perform (Inst)  |   -   |     Body     |     DEX    |
+> | **Ride**          |       |              |            |
+> | > Ride Animal     |   -   |     Body     |     DEX    |
+> | > Ride Vehicle    |   -   |     Body     |     DEX    |
+>
 
 Additionally, a character may have Knowledge of various subjects, usually acquired through the course of their training or prior adventures. Knowledge acts similarly to
 regular skills, except for the fact that they all require
@@ -116,28 +139,48 @@ training in a specific class.
 
 | Knowledge        | Attr (Basic) | Attr (Adv) |
 |:----------------:|:------------:|:----------:|
-| Acoustics        |     Mind     |     WIS    |
 | Alchemy          |     Mind     |     WIS    |
 | Arcana           |     Mind     |     INT    |
-| Astronomy        |     Mind     |     INT    |
-| Astrology        |     Mind     |     WIS    |
-| Biology          |     Mind     |     INT    |
 | Chemistry        |     Mind     |     INT    |
 | Dungeoneering    |     Mind     |     WIS    |
 | Engineering      |     Mind     |     INT    |
-| Geography        |     Mind     |     INT    |
-| Geology          |     Mind     |     INT    |
-| Gossip (Local)   |     Mind     |     WIS    |
-| Gossip (Global)  |     Mind     |     WIS    |
-| History (Local)  |     Mind     |     INT    |
-| History (Global) |     Mind     |     INT    |
+| Global           |     Mind     |     INT    |
+| Local            |     Mind     |     WIS    |
 | Linguistics      |     Mind     |     INT    |
 | Metallurgy       |     Mind     |     INT    |
 | Military         |     Mind     |     WIS    |
 | Mysticism        |     Mind     |     WIS    |
 | Nature           |     Mind     |     WIS    |
 | Nobility         |     Mind     |     INT    |
+| Philosophy       |     Mind     |     INT    |
 | Religion         |     Mind     |     INT    |
+| Theater          |     Mind     |     WIS    |
+
+> **Advanced Knowledge**
+>
+> If you want more granular categories of knowledge, try substituting for the following. Note that not all substitutes rely on the same attributes:
+> | Knowledge            | Attr (Basic) | Attr (Adv) |
+> |:--------------------:|:------------:|:----------:|
+> | **Local**            |              |            |
+> | > Geography (Local)  |     Mind     |     WIS    |
+> | > Gossip (Local)     |     Mind     |     WIS    |
+> | > History (Local)    |     Mind     |     INT    |
+> | **Global**           |              |            |
+> | > Geography (Global) |     Mind     |     INT    |
+> | > Gossip (Global)    |     Mind     |     WIS    |
+> | > History (Global)   |     Mind     |     INT    |
+> | **Mysticism**        |              |            |
+> | > Astrology          |     Mind     |     WIS    |
+> | > Esoterica          |     Mind     |     WIS    |
+> | **Philosphy**        |              |            |
+> | > Astronomy          |     Mind     |     INT    |
+> | > Biology            |     Mind     |     INT    |
+> | > Geology            |     Mind     |     INT    |
+> | > Physics            |     Mind     |     INT    |
+> | **Theater**          |              |            |
+> | > Acoustics          |     Mind     |     WIS    |
+> | > Literature         |     Mind     |     WIS    |
+
 
 Descriptions of the nature and uses of these different fields of knowledge will be found later in this text.
 
