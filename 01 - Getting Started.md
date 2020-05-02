@@ -100,12 +100,9 @@ table td:first-child {
 | Escape          |   -   |     Body     |     DEX    |
 | Fly             |   -   |     Body     |     DEX    |
 | Handle Animal   |   X   |     Soul     |     EMP    |
-| Heal            |   X   |     Mind     |     INT    |
-| Identify        |   -   |     Mind     |     INT    |
-| Perception      |   -   |     Mind     |     FOC    |
+| Perception      |   -   |     Mind     |     WIS    |
 | Perform         |   -   |     Soul     |     CHA    |
 | Ride            |   -   |     Body     |     DEX    |
-| Sense Motive    |   -   |     Mind     |     WIS    |
 | Stealth         |   -   |     Body     |     DEX    |
 | Survival        |   -   |     Mind     |     WIS    |
 
@@ -125,13 +122,19 @@ table td:first-child {
 > | > Bluff           |   -   |     Soul     |     CHA    |
 > | > Disguise        |   -   |     Mind     |     INT    |
 > | > Sleight of Hand |   X   |     Body     |     DEX    |
+> | **Perception**    |       |              |            |
+> | > Detect          |   -   |     Mind     |     FOC    |
+> | > Identify        |   -   |     Mind     |     INT    |
+> | > Sense Motive    |   -   |     Mind     |     WIS    |
 > | **Perform**       |       |              |            |
 > | > Perform (Act)   |   -   |     Soul     |     CHA    |
 > | > Perform (Inst)  |   -   |     Body     |     DEX    |
 > | **Ride**          |       |              |            |
 > | > Ride Animal     |   -   |     Body     |     DEX    |
 > | > Ride Vehicle    |   -   |     Body     |     DEX    |
->
+> | **Survival**      |       |              |            |
+> | > Forage          |   -   |     Mind     |     WIS    |
+> | > Heal            |   X   |     Mind     |     INT    |
 
 Additionally, a character may have Knowledge of various subjects, usually acquired through the course of their training or prior adventures. Knowledge acts similarly to
 regular skills, except for the fact that they all require
