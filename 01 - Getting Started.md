@@ -96,15 +96,15 @@ table td:first-child {
 | Athletics       |   -   |     Body     |     STR    |
 | Convince        |   -   |     Soul     |     CHA    |
 | Deceive         |   -   |     Mind     |     INT    |
-| Disarm Device   |   X   |     Body     |     DEX    |
-| Escape          |   -   |     Body     |     DEX    |
-| Fly             |   -   |     Body     |     DEX    |
+| Escape          |   X   |     Body     |     DEX    |
 | Handle Animal   |   X   |     Soul     |     EMP    |
 | Perception      |   -   |     Mind     |     WIS    |
 | Perform         |   -   |     Soul     |     CHA    |
+| Pilot           |   X   |     Mind     |     INT    |
 | Ride            |   -   |     Body     |     DEX    |
 | Stealth         |   -   |     Body     |     DEX    |
-| Survival        |   -   |     Mind     |     WIS    |
+| Survival        |   X   |     Mind     |     WIS    |
+| Tinker          |   X   |     Mind     |     WIS    |
 
 > **Advanced Skills**
 >
@@ -129,12 +129,22 @@ table td:first-child {
 > | **Perform**       |       |              |            |
 > | > Perform (Act)   |   -   |     Soul     |     CHA    |
 > | > Perform (Inst)  |   -   |     Body     |     DEX    |
+> | **Pilot**         |       |              |            |
+> | > Pilot (Air)     |   X   |     Mind     |     INT    |
+> | > Pilot (Sea)     |   X   |     Mind     |     INT    |
 > | **Ride**          |       |              |            |
 > | > Ride Animal     |   -   |     Body     |     DEX    |
 > | > Ride Vehicle    |   -   |     Body     |     DEX    |
 > | **Survival**      |       |              |            |
-> | > Forage          |   -   |     Mind     |     WIS    |
+> | > Forage          |   X   |     Mind     |     WIS    |
 > | > Heal            |   X   |     Mind     |     INT    |
+> | **Tinker**        |       |              |            |
+> | > Disarm Device   |   X   |     Body     |     DEX    |
+> | > Disassemble     |   X   |     Body     |     DEX    |
+> | > Invent          |   X   |     Mind     |     INT    |
+> | > Reassemble      |   X   |     Mind     |     INT    |
+
+### Knowledge
 
 Additionally, a character may have Knowledge of various subjects, usually acquired through the course of their training or prior adventures. Knowledge acts similarly to
 regular skills, except for the fact that they all require
@@ -142,15 +152,12 @@ training in a specific class.
 
 | Knowledge        | Attr (Basic) | Attr (Adv) |
 |:----------------:|:------------:|:----------:|
-| Alchemy          |     Mind     |     WIS    |
-| Arcana           |     Mind     |     INT    |
-| Chemistry        |     Mind     |     INT    |
 | Dungeoneering    |     Mind     |     WIS    |
 | Engineering      |     Mind     |     INT    |
 | Global           |     Mind     |     INT    |
 | Local            |     Mind     |     WIS    |
 | Linguistics      |     Mind     |     INT    |
-| Metallurgy       |     Mind     |     INT    |
+| Materials        |     Mind     |     INT    |
 | Military         |     Mind     |     WIS    |
 | Mysticism        |     Mind     |     WIS    |
 | Nature           |     Mind     |     WIS    |
@@ -172,7 +179,12 @@ training in a specific class.
 > | > Geography (Global) |     Mind     |     INT    |
 > | > Gossip (Global)    |     Mind     |     WIS    |
 > | > History (Global)   |     Mind     |     INT    |
+> | **Materials**        |              |            |
+> | > Alchemy            |     Mind     |     WIS    |
+> | > Chemistry          |     Mind     |     INT    |
+> | > Metallurgy         |     Mind     |     INT    |
 > | **Mysticism**        |              |            |
+> | > Arcana             |     Mind     |     INT    |
 > | > Astrology          |     Mind     |     WIS    |
 > | > Esoterica          |     Mind     |     WIS    |
 > | **Philosphy**        |              |            |
@@ -183,7 +195,6 @@ training in a specific class.
 > | **Theater**          |              |            |
 > | > Acoustics          |     Mind     |     WIS    |
 > | > Literature         |     Mind     |     WIS    |
-
 
 Descriptions of the nature and uses of these different fields of knowledge will be found later in this text.
 
@@ -196,10 +207,9 @@ Throughout the course of an adventure it is likely for a player to be presented 
 > Some skills can be used passively. With these skills, if they are declared to be performed passively, a d20 is not needed, and a flat value of 10 is substituted instead. Allocated points are not considered, but class bonus is.
 > 
 > Skills that can be used passively include:
+> * Convince
 > * Perception
 > * Knowledge
-> * Intimidate
-> * Sense Motive
 > 
 > and any other skill that makes sense for the character's background (e.g. Stealth, Perform).
 
