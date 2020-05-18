@@ -84,14 +84,8 @@ In addition to trained/untrained status, skills can also be allocated _Skill Poi
 
 The following table is a list of all skills, their class requirement, and the associated attributes (both Basic and Advanced).
 
-<style>
-table td:first-child {
-    text-align: left !important;
-}
-</style>
-
 | Skill           | Class | Attr (Basic) | Attr (Adv) |
-|:---------------:|:-----:|:------------:|:----------:|
+|:----------------|:-----:|:------------:|:----------:|
 | Acrobatics      |   -   |     Body     |     DEX    |
 | Athletics       |   -   |     Body     |     STR    |
 | Convince        |   -   |     Soul     |     CHA    |
@@ -110,7 +104,7 @@ table td:first-child {
 >
 > If you want more granular skills, try substituting for the following. Note that not all substitutes rely on the same attributes:
 > | Skill             | Class | Attr (Basic) | Attr (Adv) |
-> |:-----------------:|:-----:|:------------:|:----------:|
+> |:------------------|:-----:|:------------:|:----------:|
 > | **Athletics**     |       |              |            |
 > | > Climb           |   -   |     Body     |     STR    |
 > | > Jump            |   -   |     Body     |     STR    |
@@ -149,7 +143,7 @@ table td:first-child {
 Additionally, a character may have _Knowledge_ of various subjects, usually acquired through the course of their training or prior adventures. Knowledge acts similarly to regular skills, except for the fact that they all require training in a specific class.
 
 | Knowledge        | Attr (Basic) | Attr (Adv) |
-|:----------------:|:------------:|:----------:|
+|:-----------------|:------------:|:----------:|
 | Dungeoneering    |     Mind     |     WIS    |
 | Engineering      |     Mind     |     INT    |
 | Global           |     Mind     |     INT    |
@@ -168,7 +162,7 @@ Additionally, a character may have _Knowledge_ of various subjects, usually acqu
 >
 > If you want more granular categories of knowledge, try substituting for the following. Note that not all substitutes rely on the same attributes:
 > | Knowledge            | Attr (Basic) | Attr (Adv) |
-> |:--------------------:|:------------:|:----------:|
+> |:---------------------|:------------:|:----------:|
 > | **Local**            |              |            |
 > | > Geography (Local)  |     Mind     |     WIS    |
 > | > Gossip (Local)     |     Mind     |     WIS    |
