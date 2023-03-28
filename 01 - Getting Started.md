@@ -9,16 +9,16 @@ In a session, the players can be given any number of opportunities to interact w
 
 Before creating your character, you and your Game Master must agree on whether the game will be using the _Basic_ or _Advanced_ ruleset. The rulesets are largely the same, but the _Advanced_ ruleset requires more math and bookkeeping, so for players who prefer to do less math and do not like taking notes, the _Basic_ ruleset might be preferred. Throughout the rest of this text, the _Basic_ ruleset will be assumed, with _Advanced_ variant rules mentioned in asides.
 
-A character at its core requires three things: base attributes, a race, and a class. Optionally, if players are interested in the concept of "Alignment" then they may choose this during creation as well. Everything else, a character's appearance, gender, backstory, etc. are all for flavor and have little to no mechanical bearing on the playing of the character.
+A character at its core requires three things: base attributes, a lineage, and a class. A background occupation can also be included, which may grant additional skills or modifiers. Optionally, if players are interested in the concept of "Alignment" then they may choose this during creation as well. Everything else, a character's appearance, gender, backstory, etc. are all for flavor and have little to no mechanical bearing on the playing of the character.
 
-It should be noted that there is no explicit required combination of attributes, race, and class. An orc can be a paladin, a fighter can have cripplingly-low strength; the only thing that matters is what do _you_ the player want to play. Some classes have suggestions for base attributes, to make playing them easier, but in the end, they are but suggestions, and you are free to ignore them. The only time this is not the case is when multiclassing, which may require an attribute to be of a certain level before a second or more class can be obtained. Multiclassing will be explained in detail later on.
+It should be noted that there is no explicit required combination of attributes, lineage, and class. An orc can be a paladin, a fighter can have cripplingly-low strength; the only thing that matters is what do _you_ the player want to play. Some classes have suggestions for base attributes, to make playing them easier, but in the end, they are but suggestions, and you are free to ignore them. The only time this is not the case is when multiclassing, which may require an attribute to be of a certain level before a second or more class can be obtained. Multiclassing will be explained in detail later on.
 
 ## Base Attributes
 
 All characters are defined by three core attributes: their _Body_, their _Mind_, and their _Soul_.
-* The _Body_ attribute affects one's proficiency in combat, athletic abilities, endurance, health; in short, all physically-oriented attributes are derived from _Body_. If you are building a character with a heavy focus on combat, whether melee or ranged, this is the attribute to pay attention to.
+* The _Body_ attribute affects one's proficiency in combat, athletic abilities, endurance, Hit Points; in short, all physically-oriented attributes are derived from _Body_. If you are building a character with a heavy focus on combat, whether melee or ranged, this is the attribute to pay attention to.
 * The _Mind_, on the other hand, governs all mental attributes and abilities, such as one's mental fortitude, their capacity to learn new things, and their ability to focus under stress, in addition to other particulars, like magic use. Naturally, this is the most important attribute for spellcasters, like wizards, sorcerers, and summoners.
-* The last attribute, the _Soul_ attribute, is the attribute that determines one's connection to deities and to other people and creatures; it is your character's "heart", and is essential if you are playing a priest, bard, or druid. If playing other classes, it may appear useless, but what is oft forgotten is that a little charisma or empathy can go a long way in negotiations, making this a vital attribute for diplomatic characters.
+* Finally, the _Soul_ attribute is the attribute that determines one's connection to deities and to other people and creatures; it is your character's "heart", and is essential if you are playing a priest, bard, or druid. Regardless of character class, a little charisma or empathy can go a long way in negotiations, making this a vital attribute for diplomatic characters.
 
 > **Advanced Attributes**
 > 
@@ -26,7 +26,7 @@ All characters are defined by three core attributes: their _Body_, their _Mind_,
 > * Body
 >   * Strength - melee combat, lift capacity
 >   * Dexterity - ranged combat, sleight of hand
->   * Constitution - maximum health, poison resistance
+>   * Constitution - maximum Hit Points, poison resistance
 > * Mind
 >   * Wisdom - wild magic, passive perception
 >   * Intelligence - languages, book knowledge
@@ -42,29 +42,93 @@ Each attribute has an _Attribute Score_ and an _Attribute Modifier_ attached to 
 
 Note that it is perfectly acceptable for a character, playable or otherwise, to be "lacking" in an attribute, and thus have a score under 10. Not all scores need to be above 10 for a character to be a viable adventurer.
 
-Attribute Scores are determined primarily by two values: a _Base Score_ and a _Racial Modifier_. Additionally, some items and abilities may temporarily increase your Attribute Score; this value is a _Temporary Modifier_. The total Attribute Score then is the sum of these constituent parts. While the Temporary Modifier frequently changes, the Base Score and the Racial Modifier are usually static.
+Attribute Scores are determined primarily by two values: a _Base Score_ and a _Lineage Modifier_. Some backgrounds may also impart a bonus to attributes. Additionally, some items and abilities may temporarily increase your Attribute Score; this value is a _Temporary Modifier_. The total Attribute Score then is the sum of these constituent parts. While the Temporary Modifier frequently changes, the Base Score and the Lineage Modifier are usually static.
 
-Generating the Base Score of an attribute can be performed in multiple ways. Below are a couple examples:
+Generating the Base Score of an attribute can be performed in the following ways:
 
-#### Point Buy Method
+#### Point Buy Method (Deterministic)
 
 Each attribute starts at 10. The player is granted 3 points (6 if playing with advanced attributes) to allocate however they want. Furthermore, the player may take points from any attribute and move it to another. No score may be less than 7, nor higher than 13. For generating peasants or non-adventurers, do not give the character the 3 (or 6) bonus points.
 
-#### Dice Roll Method
+#### Dice Roll Method (Random)
 
 For each attribute the player rolls two ten-sided dice (d10), takes the higher value, and adds 5. No score may be less than 7, nor higher than 13. For generating peasants or non-adventurers, the die with the lower value is used.
 
-## Race
+### Dependent Attributes
 
-A character's race is their species, subspecies, breed, etc. Race can impart certain bonuses and penalties based on their anatomical morphology. Examples include a negative modifier to strength for diminutive races, or a positive modifier to wisdom for long-lived races. Some races are hybrids of other races, and as such may benefit or suffer from positive and negative modifiers from both of their parents.
+In addition to the base attributes that define your character, there are other attributes strongly influenced by the base attributes. These are:
 
-Aside from simple mechanical differences, races can also provide flavor and substance to a narrative. For instance, a sentient automata may be a curiosity, if not a minor celebrity, in a village of gnome engineers, but be ostracized and loathed in a commune of elvish druids. It is a good idea to discuss your character's race with your Game Master before you begin your campaign, to ensure that your character's race suits the setting, and to establish expectations.
+ - Hit Points - Health, how much damage can be taken before enterying a Dying state
+ - Stamina Points - Capacity for exertion
+ - Mana Points - Mystical energy, used for casting magic
+ - Tech Points - Mental/corporeal energy, used for performing certain martial techniques
+ - Fortitude - Strength of body, capacity to endure physical challenges
+ - Reflex - Speed of body, capacity to react instinctively to danger
+ - Willpower - Strength of mind and soul, capacity to endure mental challenges
+ - Agility - Swiftness in combat
+ - Initiative - Alertness, readiness for combat
 
-> **Race vs Culture**
+Some dependent attributes are formulaic and increase every level. The table below shows how these values are calculated:
+
+| Stat       | Base | Lvl Multi. | Die | Attr Mod (Basic) | Attr Mod (Adv) |
+|------------|------|------------|-----|------------------|----------------|
+| Hit Points | 10   | 1x         | d12 | Body             | CON            |
+| Stamina    | 5    | 0.5x       | d6  | Body             | CON            |
+| Mana/Tech  | 10   | 1x         | d8  | Class dep.       | Class dep.     |
+
+To calculate the final values, the general formula is: 
+> Base + Lvl Multi * Player Level * Attr Mod + Player Level # Die Rolls
+
+If the Attribute Modifier is negative, then this value is subtracted instead of added. These stats may not be lower than their Base values. If the player is not interested in taking chances, instead of rolling dice they may take half the max value of the relevant die (i.e. d12 -> 6, d8 -> 4, d6 -> 3). The Attribute Modifier for Mana and Tech points is determined by classes, and the stat's score will only increase on Class Level increases, instead of Player Level increases; the same multiplier applies.
+
+For Fortitude, Reflex, and Willpower, the Level Multiplier is defined by the class, and the sum relies on the following attributes:
+
+| Stat      | Attr Mod (Basic) | Attr Mod (Adv) |
+|-----------|------------------|----------------|
+| Fortitude | Body             | CON            |
+| Reflex    | Body             | DEX            |
+| Willpower | Mind             | FOC            |
+
+The calculation is then:
+> Attr Mod + Level Multiplier * Attr Mod
+
+In cases where the attribute modifier is less than or equal to 0, the value used in calculations will instead be 1.
+
+For faith-based characters (paladins, clerics, etc), Soul/FTH can be substituted for Mind/FOC for Willpower.
+
+The final dependent attributes rarely change. Initiative is based on a character's active or passive Perception skill, according to the situation: it changes when the Perception skill's score changes.
+
+Agility defines the number of actions a character (or monster) can take during a turn in combat. Calculating it involves the character's size and one basic (or two advanced) attribute modifiers. 
+
+The formula is as follows:
+> (size base) + Body / 5
 >
-> Race and culture are _not_ synonymous; depending on setting, there _may_ be a history of beings of a certain race having, or being perceived to have, a certain culture, but this is not universal nor guaranteed. Furthermore, the larger a population the greater its chances of diversifying, especially as it fragments and/or takes in those of other cultures. The same race can easily contain communities known for their all-encompassing love and acceptance, and others feared for their extreme violence and xenophobia.
+> OR
 >
-> This text includes examples of playable races, ethnic/regional variants, common stereotypes associated with and historical observations of those races/ethnicities, and suggestions for subverting these stereotypes. What this text _does not_ contain is a dialog on the sociological impact of the concept of race on fiction and reality. Better authors and thinkers have already addressed these issues, and it is left to the player to seek out these arguments and analyses.
+> (size base) + (STR + DEX) / 10
+
+The modifier part is rounded up if positive (more positive) and rounded down if negative (more negative). The agility is always at least 1.
+
+The base agility values per size are listed below:
+| Size     | Base |
+|:---------|:----:|
+| Tiny     |   4  |
+| Small    |   3  |
+| Medium   |   2  |
+| Large    |   1  |
+| Huge     |  -1  |
+| Gigantic |  -2  |
+| Titanic  |  -4  |
+
+## Lineage
+
+A character's lineage is their species, subspecies, mystical origin, etc. Lineage can impart certain bonuses and penalties based on anatomical morphology. Examples include a negative modifier to strength for diminutive lineages, or a positive modifier to wisdom for long-lived lineages. Some lineages are hybrids of other lineages, and as such may benefit or suffer from positive and negative modifiers from both of their parents.
+
+Aside from simple mechanical differences, lineages can also provide flavor and substance to a narrative. For instance, a sentient automata may be a curiosity, if not a minor celebrity, in a village of gnome engineers, but be ostracized and loathed in a commune of elvish druids. It is a good idea to discuss your character's lineage with your Game Master before you begin your campaign, to ensure that your character's lineage suits the setting, and to establish expectations.
+
+> **Lineage and Culture**
+>
+> A character's lineage does not dictate their cultural heritage. Depending on setting, there _may_ be a history of beings of a certain lineage having, or being perceived to have, a certain culture, but this is not universal nor guaranteed. Furthermore, the larger a population the greater its chances of diversifying, especially as it fragments and/or takes in those of other cultures. The same lineage can easily produce communities known for their all-encompassing love and acceptance, or feared for their extreme violence and xenophobia.
 
 ## Class
 
@@ -78,7 +142,14 @@ Choosing your starting class is a very important decision, and poor coordination
 >
 > In order to multiclass, when a character has reached the agreed-upon criteria to advance in character level, they may choose to gain a level in a new class, provided they meet that class's multiclass criteria (usually base attributes above a specified minimum).
 >
-> When calculating derived attributes like Health, Mana, and Technique points, the values for the individual classes are calculated for each class according to their level, and then summed. These attributes and their roles will be discussed in a later section.
+> When calculating derived attributes like Hit, Mana, and Tech points, the values for the individual classes are calculated for each class according to their level, and then summed. These attributes and their roles will be discussed in a later section.
+
+
+> **Playing Unclassed**
+> 
+> For the indecisive, or perhaps those interested in playing a Jack-of-all-trades, consider playing an "Unclassed" character. An unclassed character has no specialties or focuses, starts with no trained skills, and is largely restricted to common, non-class techniques. To compensate for these shortcomings, unclassed characters are given more skill points than any class, and are given the opportunity to acquire a common technique or ability _every_ level.
+>
+> On level-up, players can choose to advance in Unclassed, but only if they have not previously taken a level in any other class. Players also cannot multiclass _into_ Unclassed; once a character has started a class they can never become Unclassed. More details on being Unclassed are covered in the chapter on Classes.
 
 ## Skills
 
@@ -86,7 +157,7 @@ Skills represent the mundane abilities of an average adventurer, such as swimmin
 
 While many skills can be used untrained, some require experience in a specific class to properly utilize them; a severe penalty will be applied if a character attempts to rely on an untrained skill that requires training.
 
-In addition to trained/untrained status, skills can also be allocated _Skill Points_ during character progression. The total number of Skill Points a character can allocate is determined by the level of their class, multiplied by a specific attribute for that class. For multiclassed characters, the total is simply the sum of the Skill Points per class. Skills that require a class cannot be allocated points if the character is not trained in that class.
+In addition to trained/untrained status, skills can also be allocated _Skill Points_ during character progression. The total number of Skill Points a character can allocate is determined by the level of their class, multiplied by a modifier specified for that class. For multiclassed characters, the total is simply the sum of the Skill Points per class. Skills that require a class cannot be allocated points if the character is not trained in that class.
 
 The following table is a list of all skills, their class requirement, and the associated attributes (both Basic and Advanced).
 
@@ -131,6 +202,7 @@ The following table is a list of all skills, their class requirement, and the as
 > | > Perform (Inst)  |   -   |     Body     |     DEX    |
 > | **Pilot**         |       |              |            |
 > | > Pilot (Air)     |   X   |     Mind     |     INT    |
+> | > Pilot (Land)    |   X   |     Mind     |     INT    |
 > | > Pilot (Sea)     |   X   |     Mind     |     INT    |
 > | **Ride**          |       |              |            |
 > | > Ride Animal     |   -   |     Body     |     DEX    |
@@ -169,14 +241,19 @@ Additionally, a character may have _Knowledge_ of various subjects, usually acqu
 > If you want more granular categories of knowledge, try substituting for the following. Note that not all substitutes rely on the same attributes:
 > | Knowledge            | Attr (Basic) | Attr (Adv) |
 > |:---------------------|:------------:|:----------:|
-> | **Local**            |              |            |
-> | > Geography (Local)  |     Mind     |     WIS    |
-> | > Gossip (Local)     |     Mind     |     WIS    |
-> | > History (Local)    |     Mind     |     INT    |
+> | **Engineering**      |              |            |
+> | > Architecture       |     Mind     |     INT    |
+> | > Civil              |     Mind     |     INT    |
+> | > Mechanisms (large) |     Mind     |     INT    |
+> | > Mechanisms (small) |     Mind     |     INT    |
 > | **Global**           |              |            |
 > | > Geography (Global) |     Mind     |     INT    |
 > | > Gossip (Global)    |     Mind     |     WIS    |
 > | > History (Global)   |     Mind     |     INT    |
+> | **Local**            |              |            |
+> | > Geography (Local)  |     Mind     |     WIS    |
+> | > Gossip (Local)     |     Mind     |     WIS    |
+> | > History (Local)    |     Mind     |     INT    |
 > | **Materials**        |              |            |
 > | > Alchemy            |     Mind     |     WIS    |
 > | > Chemistry          |     Mind     |     INT    |
@@ -224,15 +301,34 @@ Below is a possible scenario, involving both untrained skill use and a passive s
 > 
 > As mentioned previously, training with a particular skill will impart a bonus during skill challenges, while attempting to perform a skill that requires class training without training in said class will incur a penalty. The bonus for a trained skill is **+3** while the penalty for an untrained class skill is **-10**.
 
-### Epic Success and Failure
+### Degrees of Success and Failure
 
-_Epic Success_ and _Epic Failure_ grant a character the opportunity to succeed at tasks they're normally not capable of performing, while also introducing the possibility of failure for a character who is expertly trained at a task.
+Success and failure are rarely binary. Instead, they often occur on a gradient. Below is a table of the enumerated degrees of success and failure, and the roll's difference from the skill challenge:
 
-An _Epic Failure_ is a roll of 1 on a d20, and represents accidents, lapses in judgement, or divine punishment, and results in an immediate failure of the intended action, regardless of total point value.
+| Degree           |   | Difference |
+|:-----------------|:-:|:----------:|
+| Critical Failure | - |     >10    |
+| Failure          | - |     2-10   |
+| Minor Failure    | - |     1-2    |
+| Minor Success    | + |     0-2    |
+| Success          | + |     2-10   |
+| Critical Success | + |     >10    |
 
-An _Epic Success_ is a roll of 20 on a d20, and represents beginner's luck, a flash of intuition, or divine intervention, and results in an immediate success of the intended action, regardless of total point value.
+Starting from the bottom, a Critical Success occurs when a player's skill check is 10 points or more higher than the skill challenge. A critical success is flawless, demonstrating extreme luck, skill, or even divine intervention.
 
-While epic success and failure have the potential to make a game more exciting, some might consider the rule makes the game more frustrating. Justifications for including epic success and failure are included in the Appendix, but if the players disagree, they are welcome to ignore them.
+If the skill check is between 2 and 10 points above the skill challege, then it is a regular Success. This represents an average event, a well-practiced maneuver, a victory without any flair.
+
+Matching the skill check exactly, and up to 2 points above, results in a Minor Success, barely managing a task, but a success none-the-less.
+
+Missing the skill check by 1 or 2 points results in a Minor Failure. In many cases, a minor failure is a small, largely inconsequential mistake, and can be retried, assuming the challenge at hand isn't life-threatening.
+
+A skill check falling between 2 and 10 points below the skill challenge leads to a regular Failure. These failures are too dramatic to not be retried, but are ultimately nothing fantastic.
+
+At 10 points or more below the skill challenge, the player has rolled a Critical Failure. A critical failure is devastating, the consequence of a severe lack of luck or skill, or even divine punishment.
+
+Under certain circumstances, a success or failure can be upgraded or downgraded. For instance, succeeding in a separate Focus check can grant a single level upgrade, while failing an attempted Focus check will cause a downgrade by a level. 
+
+In all cases, rolling a 20 will result in a double upgrade, allowing for a success even if the maximum total would only allow for a minor failure. Conversely, rolling a 1 will result in a double downgrade, turning what should have been a success into a minor failure, or a minor failure into a Critical Failure.
 
 # Character Progression
 
@@ -244,15 +340,4 @@ In addition to class abilities, gaining levels also has the chance to improve th
 
 After updating attributes, it's time to allocate skill points, as described in the previous section on Skills. If the player has acquired a new class, and that class comes with training in skills the player did not know before, then these should also be marked and their scores updated.
 
-The last stats to be updated are Health, Stamina, and Mana/Tech. The function of these stats will be explained in greater depth later. Below is a table showing the values involved in determining these stats:
-
-| Stat      | Base | Lvl Multi. | Die | Attr Mod (Basic) | Attr Mod (Adv) |
-|-----------|------|------------|-----|------------------|----------------|
-| Health    | 10   | 1x         | d12 | Body             | CON            |
-| Stamina   | 5    | 0.5x       | d6  | Body             | CON            |
-| Mana/Tech | 10   | 1x         | d8  | Class dep.       | Class dep.     |
-
-To calculate the final values, the general formula is: 
-> Base + Lvl Multi * Player Level * Attr Mod + Player Level # Die Rolls
-
-If the Attribute Modifier is negative, then this value is subtracted instead of added. These stats may not be lower than their Base values. If the player is not interested in taking chances, instead of rolling dice they may take half the max value of the relevant die (i.e. d12 -> 6, d8 -> 4, d6 -> 3). The Attribute Modifier for Mana and Tech points is determined by classes, and the stat's score will only increase on Class Level increases, instead of Player Level increases; the same multiplier applies.
+The last stats to be updated are the dependent attributes, such as Hit Points, Stamina Points, and Mana/Tech Points. Follow the standard formulas for HP, SP, and MP/TP, and make adjustments to Fortitude, Reflex, and Willpower according to class multipliers. While not likely, if the Agility score needs to be updated, remember to do so, as the number of actions per turn is very important in combat.
