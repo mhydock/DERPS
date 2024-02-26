@@ -130,6 +130,30 @@ For each _Attribute_ the player rolls two six-sided dice (d6), takes the higher 
 
 ## Alignment
 
+_Alignment_ defines the disposition of a playable or non-playable character, society, deity, or of metaphysical concepts or planes of reality. _Alignment_ is complex and is defined by a matrix of the following _Values_: 
+ - Altruism - Providing for others, selflessness
+ - Egoism - Providing for oneself, selfishness
+ - Liberty - Freedom, change, novelty, unpredictability
+ - Authority - Heirarchy, stasis, tradition, predictability
+
+_Values_ are further arranged on _Value Axes_:
+ - Altruism <-> Egoism
+ - Liberty <-> Authority
+
+Affinity for a _Value_ is not binary, and is represented by the table below:
+
+|          | Strong | Normal | Weak | Neutral | Weak | Normal | Strong |           |
+|---------:|:------:|:------:|:----:|:-------:|:----:|:------:|:------:|:----------|
+| Altruism |    ⃝   |    ⃝   |   ⃝  |    ⃝    |  ⃝   |   ⃝    |   ⃝    | Egoism    |
+|  Liberty |    ⃝   |    ⃝   |   ⃝  |    ⃝    |  ⃝   |   ⃝    |   ⃝    | Authority |
+
+Rarely is a character strongly aligned with any _Value_. Pure Altruism can quickly become self-destructive, as one strives to give all of themself to others, whereas pure Egoism becomes all-consuming and deprives others of much-needed resources and opportunities. Pure Liberty can result in total chaos, as individual freedom is prized above any sort of social or individual responsibility, while pure Authority eliminates all freedom in favor of strict conformity, order without nuance.
+
+Throughout the course of an adventure, players may encounter characters or realms with _Alignments_ in conflict with their own. While a minor difference in _Alignment_ is to be expected, severe differences in _Alignment_ will result in an increase in difficulty with respect to attempts at diplomacy, and may even result in outright enmity. 
+
+In this way there is no absolute "good" or "evil", only relative "good" and "evil". Spells are by themselves neither inherently good or evil, and the same can be said for deities, societies, and planes of existence. Magic that may be considered "dark" can be used for liberal altruistic purposes, while magic seen as "light" can be used for self-serving authoritarian purposes. Deities of opposing values may consider the other to be "evil", while non-worshippers may view both to be too similarly-aligned to matter, if not two sides of the same coin.
+
+Finally, while _Alignment_ can be set at character creation, it is a reflection of the actions of the players, and as such is liable to change. When a _Player Character_ has repeatedly acted in opposition to their designated _Alignment_, the _Game Master_ has the right to issue an adjustment to said _Player Character's_ _Alignment_, which will affect future interactions.
 
 ## Lineage
 
