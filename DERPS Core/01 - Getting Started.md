@@ -17,14 +17,14 @@ There is no explicit required combination of _Attributes_, _Lineage_, and _Class
 
 The caveat to this freedom is that some combinations of _Attribute_, _Lineage_, and _Class_ may result in a character that is simply un-fun to play. Character creation should be carefully coordinated between the players and the _Game Master_, to ensure everyone is able to contribute and have fun.
 
-The only time there is an explicit requirement is in the case of multiclassing, which may require an _Attribute_ to be of a certain level before a second or more class can be obtained. Multiclassing will be explained in detail later on.
+The only time there is an explicit requirement is in the case of multiclassing, which may require an _Attribute_ to be of a certain level before an additional class can be obtained. Multiclassing will be explained in detail later on.
 
 ## Attributes
 
 All characters are defined by three core _Attributes_: their _Body_, their _Mind_, and their _Soul_.
 * _Body_ affects proficiency in combat, athletic abilities, endurance, Hit Points; in short, all physically-oriented attributes are derived from _Body_. If you are building a character with a heavy focus on combat, whether melee or ranged, this is the _Attribute_ to pay attention to.
-* _Mind_ governs all mental attributes and abilities, such as mental fortitude, capacity to learn new things, and ability to focus under stress, in addition to other particulars, like magic use. Naturally, this is the most important attribute for spellcasters, like wizards, sorcerers, and summoners.
-* _Soul_ determines connection to deities and to other people and creatures; it is your character's "heart", and is essential if you are playing a priest, bard, or druid. Regardless of character class, a little charisma or empathy can go a long way in negotiations, making this a vital _Attribute_ for diplomatic characters.
+* _Mind_ governs all mental attributes and abilities, such as mental fortitude, capacity to learn new things, and ability to focus under stress, in addition to other particulars, like magic use. Naturally, this is the most important attribute for arcane spellcasters.
+* _Soul_ determines connection to deities and to other people and creatures; it is your character's "heart", and is essential if you are playing a performer or a divine spellcaster. Regardless of character class, a little charisma or empathy can go a long way in negotiations, making this a vital _Attribute_ for diplomatic characters.
 
 > **Advanced Attributes**
 > 
@@ -90,7 +90,7 @@ For Fortitude, Reflex, and Willpower, opportunities to increase are defined by t
 The calculation is then:
 > Attr Score + (# of opportunities) * Attr Score
 
-For faith-based characters (paladins, clerics, etc), Soul/FTH can be substituted for Mind/FOC for Willpower.
+For faith-based characters, Soul/FTH can be substituted for Mind/FOC for Willpower.
 
 The final dependent attributes rarely change. _Initiative_ is based on a character's active or passive _Perception_ skill, according to the situation: it changes when the _Perception_ skill's score changes.
 
@@ -103,7 +103,7 @@ The formula is as follows:
 >
 > (size base) + (STR + DEX - 10) /2
 
-The total _Agility_ score is always rounded to the nearest positive integer, but is always at least 1.
+The total _Agility_ score is always rounded to the nearest positive whole number, but is always at least 1.
 
 The base _Agility_ values per size are listed below:
 | Size     | Base |
@@ -159,7 +159,7 @@ Finally, while _Alignment_ can be set at character creation, it is a reflection 
 
 A character's _Lineage_ is their species, subspecies, mystical origin, etc. _Lineage_ can impart certain bonuses and penalties based on anatomical / metaphysical morphology. Examples include a negative modifier to strength for diminutive _Lineages_, or a positive modifier to wisdom for long-lived _Lineages_. Some _Lineages_ are hybrids of other _Lineages_, and as such may benefit or suffer from positive and negative modifiers from both of their parents.
 
-Aside from simple mechanical differences, _Lineages_ can also provide flavor and substance to a _Player Character_. For instance, a sentient automata may be a curiosity, if not a minor celebrity, in a village of gnome engineers, but be ostracized and loathed in a commune of elvish druids. It is a good idea to discuss your character's _Lineage_ with your _Game Master_ before you begin your campaign, to ensure that your character's _Lineage_ suits the setting, and to establish expectations.
+Aside from simple mechanical differences, _Lineages_ can also provide flavor and substance to a charater's narrative. A character of a certain lineage may be discriminated against in some locales, but celebrated in others. It is a good idea to discuss your character's _Lineage_ with your _Game Master_ before you begin your campaign, to ensure that your character's _Lineage_ suits the setting, and to establish expectations.
 
 > **Lineage and Culture**
 >
@@ -177,7 +177,7 @@ Choosing your starting class is a very important decision, and poor coordination
 >
 > In order to multiclass, when a character has reached the agreed-upon criteria to advance in character level, they may choose to gain a level in a new class, provided they meet that class's multiclass criteria (usually _Attributes_ above a specified minimum).
 >
-> When calculating derived attributes like Hit, Mana, and Tech points, the values for the individual classes are calculated for each class according to their level, and then summed. These attributes and their roles will be discussed in a later section.
+> When calculating derived attributes like Mana and Tech points, the values for the individual classes are calculated for each class according to their level, and then summed. These attributes and their roles will be discussed in a later section.
 
 
 > **Playing Unclassed**
@@ -338,14 +338,6 @@ The _Challenge Rating_ of an action is determined by the _Game Master_, and the 
 > 
 > As mentioned previously, training with a particular _Skill_ will impart a bonus during _Skill Challenges_, while attempting to perform a _Skill_ that requires class training without training in said class will incur a penalty. The bonus for a trained _Skill_ is **+3** while the penalty for an untrained class _Skill_ is **-10**.
 
-Below is an example scenario, involving both untrained skill use and a passive skill:
-
-> * Thog the Barbarian needs to sneak past a guard, lest he draw the attention of the entire fort.
-> * Thog is not trained in _Stealth_, because barbarians do not usually sneak.
-> * _Stealth_ is a skill that can be used untrained though, as conceptually, moving without being noticed is not that difficult.
-> * As such, Thog may attempt to sneak, relying on his Body (DEX) score, along with whatever points have been allocated to his Stealth skill during the course of character progression.
-> * Thog's player rolls a d20, and adds the result to Thog's Stealth score.
-> * If the total is greater than the guard's passive perception, Thog succeeds, otherwise Thog fails.
 
 ### Degrees of Success and Failure
 
